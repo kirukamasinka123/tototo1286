@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>release</applicationBuildType>
+    <applicationName>NewCatroid</applicationName>
+    <applicationVersion>2.1.1b2</applicationVersion>
+    <catrobatLanguageVersion>1.17</catrobatLanguageVersion>
+    <customResolution>false</customResolution>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>RMX3941</deviceName>
+    <gitRemoteUrl></gitRemoteUrl>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <physicsHeightArea>2.0</physicsHeightArea>
+    <physicsWidthArea>3.0</physicsWidthArea>
+    <platform>Android</platform>
+    <platformVersion>35</platformVersion>
+    <programLicense></programLicense>
+    <programName>игра по сети</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2242</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene sceneId="94dcc416-bbcb-4d39-a83c-466ddcd0d509">
+      <name>Сцена</name>
+      <objectList>
+        <object type="Sprite" spriteId="fabc5742-3844-4ea6-a177-5567bf5e418e" name="Фон">
+          <lookList>
+            <look fileName="Фон.png" lookId="d93e52f1-53b7-4296-8006-96d647dfe264" name="Фон">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="StartServerBrick">
+                  <brickId>af7a7c45-983f-4019-a15e-11a4978c3352</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PORT">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>1234</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="WaitBrick">
+                  <brickId>3267aa68-11a8-48c1-a5e3-db0bfab3f695</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1.0</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="ConnectServerBrick">
+                  <brickId>d71a61f1-7e3d-4a42-b52e-fcdc47a321f1</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="PORT">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>1234</value>
+                    </formula>
+                    <formula category="IP">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>127.0.0.1</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>091b682b-623d-4e21-af35-e38a2d74cdcf</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+        <object type="Sprite" spriteId="3ca57b8a-d14d-4c72-8e4e-fc7fcdc903bd" name="игрок">
+          <lookList>
+            <look fileName="Мой актер или объект.png" lookId="0b55c059-5445-4f82-8f2e-443ef690868f" name="игрок">
+              <isWebRequest>false</isWebRequest>
+              <valid>true</valid>
+            </look>
+          </lookList>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="PlaceAtBrick">
+                  <brickId>c5a93969-5fd2-4a02-b046-9d0fdc1eeb2e</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>238</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>639</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="ForeverBrick">
+                  <brickId>a63d3ad2-a57b-48c8-8439-c3ad5cd568fe</brickId>
+                  <commentedOut>false</commentedOut>
+                  <loopBricks>
+                    <brick type="GoToBrick">
+                      <brickId>cd659271-63e3-4779-b738-68c841f22056</brickId>
+                      <commentedOut>false</commentedOut>
+                      <spinnerSelection>80</spinnerSelection>
+                    </brick>
+                  </loopBricks>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>713f2de5-69f2-4880-8fe3-60ec555b2f18</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList/>
+  <programListOfLists/>
+  <programMultiplayerVariableList/>
+</program>
