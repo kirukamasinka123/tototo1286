@@ -11,7 +11,7 @@
     <dateTimeUpload></dateTimeUpload>
     <description></description>
     <deviceName>RMX3941</deviceName>
-    <gitRemoteUrl></gitRemoteUrl>
+    <gitRemoteUrl>https://github.com/kirukamasinka123/tototo1286.git</gitRemoteUrl>
     <isCastProject>false</isCastProject>
     <landscapeMode>false</landscapeMode>
     <listeningLanguageTag></listeningLanguageTag>
@@ -49,46 +49,19 @@
             <script type="StartScript" posX="0.0" posY="0.0">
               <brickList>
                 <brick type="StartServerBrick">
-                  <brickId>af7a7c45-983f-4019-a15e-11a4978c3352</brickId>
+                  <brickId>902d4852-5ca7-402a-a579-851a8233771f</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
                     <formula category="PORT">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>1234</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="ConnectServerBrick">
-                  <brickId>d71a61f1-7e3d-4a42-b52e-fcdc47a321f1</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="PORT">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>1234</value>
-                    </formula>
-                    <formula category="IP">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>127.0.0.1</value>
-                    </formula>
-                  </formulaList>
-                </brick>
-                <brick type="AskGeminiBrick">
-                  <brickId>28354501-fcd8-4a8c-a723-a3e5acd7bfa7</brickId>
-                  <commentedOut>false</commentedOut>
-                  <formulaList>
-                    <formula category="QUESTION">
-                      <additionalChildren/>
-                      <type>STRING</type>
-                      <value>Hello!</value>
                     </formula>
                   </formulaList>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
-              <scriptId>091b682b-623d-4e21-af35-e38a2d74cdcf</scriptId>
+              <scriptId>9859c81b-9a02-4786-890a-97a024b6eff6</scriptId>
             </script>
           </scriptList>
           <nfcTagList/>
